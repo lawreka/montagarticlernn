@@ -285,7 +285,7 @@ def load_gpt2(sess,
     for repeated predictions.
     """
 
-    CHECKPOINT_DIR = 'checkpoint'
+    CHECKPOINT_DIR = ''
 
     checkpoint_path = os.path.join(CHECKPOINT_DIR, run_name)
 
