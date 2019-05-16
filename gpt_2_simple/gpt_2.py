@@ -285,7 +285,7 @@ def load_gpt2(sess,
     for repeated predictions.
     """
 
-    CHECKPOINT_DIR = 'checkpoint'
+    CHECKPOINT_DIR = 'runs/181/checkpoint'
 
     checkpoint_path = os.path.join(CHECKPOINT_DIR, run_name)
 
@@ -511,7 +511,7 @@ def cmd():
     )
 
     # Explicit arguments
-    
+
     parser.add_argument(
         '--mode', help='Mode for using the CLI (either "finetune" or "generate") [Required]', nargs='?')
     parser.add_argument(
